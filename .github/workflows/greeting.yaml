@@ -2,7 +2,7 @@ name: greetings
 on: push
 jobs:
     greet:
-        runs-on: ubunut-latest
+        runs-on: ubunut-22.04
         steps:
             - name: "greet user"
               run: echo "Hello World"
